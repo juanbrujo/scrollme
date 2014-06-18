@@ -114,7 +114,7 @@
 
 			// For each animated element
 
-			$( this ).find( '.animateme' ).each( function()
+			$( this ).filter( '.animateme' ).each( function()
 			{
 				// Get effect details
 
